@@ -2,9 +2,8 @@
 
 
 <h3>This project, react-axios for firebase(database) operations was prepared as a SPA-based application using react-redux </h3>
-![amazon-ss-1](https://user-images.githubusercontent.com/73909361/184493957-974aa60e-697c-4145-99ff-4e452a29e2a3.png)
-![amazon-ss-2](https://user-images.githubusercontent.com/73909361/184493959-8533701f-169b-4c9c-a6a4-d6f041aab774.png)
-![amazon-ss-3](https://user-images.githubusercontent.com/73909361/184493961-d4bb87d0-e7e6-4cd6-879f-73891b5084f1.png)
+ 
+![amazon-ss-1](https://user-images.githubusercontent.com/73909361/184494035-9bf0ffaa-0ae8-40f8-9084-849bb85e0b1f.png)
 
  
 
