@@ -1,11 +1,17 @@
 # Amazon Shopping Cart 
 
 
-<h3>This project, react-axios for firebase(database) operations was prepared as a SPA-based application using react-redux </h3>
+<h4>This project, react-axios for firebase(database) operations was prepared as a SPA-based application using react-redux ,router </h4>
 
-<img src="images/amazon-ss-1-png" width="800" heigth="600">
-<img src="images/amazon-ss-2-png" width="800" heigth="600">
-<img src="images/amazon-ss-3-png" width="800" heigth="600">
+![amazon-ss-1](https://user-images.githubusercontent.com/73909361/184494237-713ae7f4-e953-4029-8448-7b4b5ec0d3c9.png)
+![amazon-ss-2](https://user-images.githubusercontent.com/73909361/184494241-bd216dc7-e25f-4a0a-89c3-0a9fb112bf7b.png)
+![amazon-ss-3](https://user-images.githubusercontent.com/73909361/184494244-14973a4e-763b-44e2-9c7d-6a7f9086a4ab.png)
+
+
+<br/>
+<br/>
+
+ 
 
 ## Available Scripts
 
