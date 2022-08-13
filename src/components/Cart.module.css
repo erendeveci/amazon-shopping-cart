@@ -1,0 +1,39 @@
+.cartContainer {
+  max-width: 60rem;
+  width: 100%;
+  background-color: #fff;
+  height: auto;
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+.total {
+  max-width: 60rem;
+  width: 100%;
+
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+
+.totalText {
+  margin-left: auto;
+  margin-right: 0.5rem;
+  width: 12rem;
+}
+.totalText h4 {
+  text-align: end;
+}
+@media only screen and (max-width: 576px) {
+  /* Mobile: */
+  .cartContainer {
+    max-width: 85rem;
+  }
+  .total {
+    max-width: 26rem;
+  }
+}
+
+.title {
+  font-size: 0.8rem;
+  margin-left: auto;
+  margin-right: 0;
+}

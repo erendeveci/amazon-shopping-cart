@@ -1,0 +1,12 @@
+.addToCartBtn {
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #ffd814;
+  width: 12rem;
+  height: 2.4rem;
+  border: rgb(255, 255, 255) solid 0rem;
+  border-radius: 0.4rem;
+  margin: 0rem auto;
+}

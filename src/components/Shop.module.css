@@ -1,0 +1,38 @@
+.shopContainer {
+  max-width: 60rem;
+  width: 100%;
+
+  margin: 0rem auto;
+}
+.shopItemContainer {
+  display: grid;
+
+  grid-template-columns: auto auto auto auto;
+  gap: 0.5rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 976px) {
+  /* Tablet */
+  .shopItemContainer {
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    gap: 0.5rem;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  /* Mobile: */
+  .shopItemContainer {
+    max-width: 30rem;
+    justify-content: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 0.5rem;
+    padding: 2rem;
+  }
+}

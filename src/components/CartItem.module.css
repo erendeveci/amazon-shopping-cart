@@ -1,0 +1,85 @@
+.itemContainer {
+  width: 100%;
+  height: auto;
+}
+.content {
+  height: 9rem;
+  display: flex;
+  margin: 1rem auto; /*2 rem top and bottom  */
+  margin-top: 1rem;
+}
+
+h4 {
+  margin: 1;
+  padding: 0;
+}
+p {
+  margin: 0;
+
+  margin-top: 0rem;
+}
+.detail {
+  margin-left: 1rem;
+}
+.detail p {
+  margin-top: 2rem;
+}
+
+.price {
+  margin-left: auto;
+  margin-right: 0.5rem;
+}
+
+img {
+  width: 200px;
+  height: 160px;
+}
+
+@media only screen and (max-width: 976px) {
+  /* Tablet */
+  .content {
+    padding: 1rem;
+    margin-bottom: 4rem;
+  }
+  .content h4 {
+    margin: 0;
+    padding: 0;
+  }
+}
+.increase {
+  margin: auto;
+  width: auto;
+  height: 1rem;
+  display: block;
+  background-color: white;
+  text-align: center;
+  border: none;
+
+  font-size: 1.2rem;
+}
+
+.decrease {
+  margin: auto;
+  width: auto;
+  height: 1rem;
+  display: block;
+  background-color: white;
+  text-align: center;
+  border: none;
+  font-size: 1.2rem;
+}
+
+button {
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+}
+
+.amount {
+  text-align: center;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
