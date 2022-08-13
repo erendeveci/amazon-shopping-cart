@@ -3,9 +3,9 @@
 
 <h3>This project, react-axios for firebase(database) operations was prepared as a SPA-based application using react-redux </h3>
 
-<img src="src/images/amazon-ss-1-png" width="800" heigth="600"/>
-<img src="src/images/amazon-ss-2-png" width="800" heigth="600"/>
-<img src="src/images/amazon-ss-3-png" width="800" heigth="600"/>
+<img src="./src/images/amazon-ss-1-png" width="800" heigth="600"/>
+<img src="./src/images/amazon-ss-2-png" width="800" heigth="600"/>
+<img src="./src/images/amazon-ss-3-png" width="800" heigth="600"/>
 
 ## Available Scripts
 
