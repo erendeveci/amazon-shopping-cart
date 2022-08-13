@@ -6,7 +6,8 @@
 ![amazon-ss-1](https://user-images.githubusercontent.com/73909361/184494115-c47a61cc-7bff-4bb0-a079-b50bda1bcbf0.png)
 <br/>
 ![amazon-ss-2](https://user-images.githubusercontent.com/73909361/184494132-41503731-ee61-42a9-9adb-24a03fd4f2e1.png)
- 
+![amazon-ss-3](https://user-images.githubusercontent.com/73909361/184494151-703fe4fa-1525-4122-baf5-91722339e9b7.png)
+
 <br/>
 <br/>
 
