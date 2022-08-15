@@ -1,16 +1,19 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
-import Shop from "./components/Shop";
-import Cart from "./components/Cart";
+import Spinner from "./UI/Spinner";
 import { addItemToDatabase, removeAllCartData } from "./store/cartSlice";
 
 import { fetchProduct } from "./store/productSlice";
 //Redux
 import { useDispatch, useSelector } from "react-redux";
 import { fetchCartData } from "./store/cartSlice";
+
 let isInitial = true;
+
+const Shop = React.lazy(() => import("./components/Shop.js"));
+const Cart = React.lazy(() => import("./components/Cart.js"));
 function App() {
   const cart = useSelector((state) => state.cart);
 
@@ -53,12 +56,13 @@ function App() {
 
   return (
     <>
-      <Navbar />
-
-      <Routes>
-        <Route path="/" element={<Shop />} />
-        <Route path="/cart" element={<Cart />} />
-      </Routes>
+      <Suspense fallback={<Spinner />}>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Shop />} />
+          <Route path="/cart" element={<Cart />} />
+        </Routes>{" "}
+      </Suspense>
     </>
   );
 }
